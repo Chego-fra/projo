@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+/* <!-- -------------------------Sony------------------------ --> */
+.sony{
+    background: black;
+    color: white;
+    padding: 0 2%;
+}
+.sony h1{
+    text-align: end;
+    font-size: 28px;
+}
+@media screen  and (maxwidth: 575.98px){
+    .sony{
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0 2%;
+    }
+    .sony h1{
+        text-align: end;
+        font-size: 28px;
+    }
+}
+@media screen  and (min-width: 576px) and (max-width: 767.98px) {
+    .sony{
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0 2%;
+    }
+    .sony h1{
+        text-align: end;
+        font-size: 28px;
+    }
+}
+@media screen  and (min-width: 768px) and (max-width: 991.98px) {
+    .sony{
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0 2%;
+    }
+    .sony h1{
+        text-align: end;
+        font-size: 28px;
+    }
+}
+@media screen  and (min-width: 992px) and (max-width: 1199.98px){
+    .sony{
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0 2%;
+    }
+    .sony h1{
+        text-align: end;
+        font-size: 28px;
+    }
+}
+@media screen  and (min-width: 1200px) {
+    .sony{
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0 2%;
+    }
+    .sony h1{
+        text-align: end;
+        font-size: 28px;
+    }
+}
+
+/* <!-- -------------------------Nav------------------------ --> */
+.navo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 5%;
+    align-items: center;
+    z-index: 900;
+}
+.navo .logo a img{
+    width: 50px;
+}
+.navo .links {
+    margin-left: 50px;
+}
+.navo .links a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.navo .btn{
+    margin-left: 450px;
+}
+.navo .btn button{
+    background: blue;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 2px 20px;
+    border-radius: 30px;
+    font-size: 18px
+}
+.navo .search{
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+@media screen  and (maxwidth: 575.98px){
+    .sony{
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0 2%;
+    }
+    .sony h1{
+        text-align: end;
+        font-size: 28px;
+    }
+}
+@media screen  and (min-width: 576px) and (max-width: 767.98px) {
+    .sony{
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0 2%;
+    }
+    .sony h1{
+        text-align: end;
+        font-size: 28px;
+    }
+}
+@media screen  and (min-width: 768px) and (max-width: 991.98px) {
+    .sony{
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0 2%;
+    }
+    .sony h1{
+        text-align: end;
+        font-size: 28px;
+    }
+}
+@media screen  and (min-width: 992px) and (max-width: 1199.98px){
+    .sony{
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0 2%;
+    }
+    .sony h1{
+        text-align: end;
+        font-size: 28px;
+    }
+}
+@media screen  and (min-width: 1200px) {
+    .sony{
+        width: 100%;
+        background: black;
+        color: white;
+        padding: 0 2%;
+    }
+    .sony h1{
+        text-align: end;
+        font-size: 28px;
+    }
+}
+/* <!-- ------------------------Nav------------------------- --> */
+#Navo .Nav {
+    padding: 10px 0;
+}
+#Navo .Nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#Navo .Nav ul li{
+    margin-right: 20px;
+}
+#Navo .Nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+#Navo .Nav ul li a:hover{
+    color: blue;
+}
+#Navo .Nav button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: blue;
+    color: white;
+    font-weight: 600;
+}
+#Navo .Nav button:hover{
+    background: red;
+    color: white;
+}
+#Navo .Nav .btn:hover{
+    padding: 3px;
+    border: 3px solid #3399FF;
+    border-radius: 15px;
+}
+#Navo .Nav i{
+    font-size: 35px;
+}
+#Navo .Nav .Normal-Nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+#Navo .Nav .Normal-Nav .Left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#Navo .Nav .Normal-Nav  .Left ul{
+    margin-top: 20px;
+}
+#Navo .Nav .Normal-Nav .Left .logo a img{
+    width: 80px;
+}
+#Navo .Nav .Normal-Nav  .Right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#Navo .Nav .Respo-nav{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.43);
+    transition: all 0.6s ease-in-out;
+    z-index: 999;
+    top: 0;
+    right: -100%;
+}
+#Navo .Nav .Respo-nav.Nav-open{
+    right: 0;
+}
+#Navo .Nav .Respo-nav .All{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+}
+#Navo .Nav .Respo-nav .All ul{
+    display: flex;
+    flex-direction: column;
+}
+#Navo .Nav .Respo-nav .All ul li{
+    margin: 10px 0;
+}
+#Navo .Nav .Respo-nav .All ul li a{
+    color: white;
+}
+#Navo .Nav .Respo-nav .All ul li a:hover{
+    color: blue;
+}
+#Navo .Nav .Respo-nav .All .btn{
+    margin-bottom: 20px;
+}
+#Navo .Nav .Respo-nav .All .btn button:hover{
+    background: blueviolet;
+}
+#Navo .Nav .Respo-nav .All .search i{
+    color: white;
+    font-size: 30px;
+}
+#Navo .Nav .Respo-nav .All .search i:hover{
+    color: blue;
+}
+#Navo .Menu-btn{
+    position: fixed;
+    top: 65px;
+    font-size: 30px;
+    color: black;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+    display: none;
+}
+#Navo .Menu-btn:hover{
+    color: red;
+}
+/* Responsive design */
+/* Small devices (max-width: 575.98px) */
+@media screen and (max-width: 575.98px){
+    #Navo .Nav .Normal-Nav .Left ul{
+        display: none;
+    }
+    #Navo .Nav .Normal-Nav  .Right{
+        display: none;
+    }
+    #Navo .Menu-btn{
+        display: flex;
+        flex-direction: row;
+    }
+    #Navo .Menu-btn i:hover{
+        color: blue;
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    #Navo .Nav .Normal-Nav .Left ul{
+        display: none;
+    }
+    #Navo .Nav .Normal-Nav  .Right{
+        display: none;
+    }
+    #Navo .Menu-btn{
+        display: flex;
+        flex-direction: row;
+    }
+    #Navo .Menu-btn i:hover{
+        color: blue;
+    }
+}
+/* Desktop view */
+@media screen and (min-width: 769px)and  (max-width: 992px){
+    #Navo .Nav .Normal-Nav .Left ul{
+        display: none;
+    }
+    #Navo .Nav .Normal-Nav  .Right{
+        display: none;
+    }
+    #Navo .Menu-btn{
+        display: flex;
+        flex-direction: row;
+    }
+    #Navo .Menu-btn i:hover{
+        color: blue;
+    }
+}
+/* Large devices (min-width: 992px and max-width: 1199.98px) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    #Navo .Nav .Normal-Nav .Left ul{
+        display: flex;
+        flex-direction: row;
+    }
+    #Navo .Nav .Normal-Nav  .Right{
+        display: flex;
+        flex-direction: row;
+    }
+    #Navo .Menu-btn{
+        display: none;
+    }
+}
