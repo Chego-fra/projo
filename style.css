@@ -5,6 +5,31 @@
     font-family: "Work Sans", sans-serif;
 }
 
+body{
+    min-width: 100%;
+}
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
+    body{
+        min-width: 100%;
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    body{
+        min-width: 100%;
+    }
+}
+
+/* Large devices (min-width: 768px and max-width: 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    body{
+        min-width: 100%;
+    }
+}
+
 
 /* <!-- -------------------------Sony------------------------ --> */
 .sony{
@@ -16,168 +41,35 @@
     text-align: end;
     font-size: 28px;
 }
-@media screen  and (maxwidth: 575.98px){
+
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
     .sony{
-        width: 100%;
-        background: black;
-        color: white;
+        min-width: 100%;
         padding: 0 2%;
-    }
-    .sony h1{
-        text-align: end;
-        font-size: 28px;
     }
 }
-@media screen  and (min-width: 576px) and (max-width: 767.98px) {
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
     .sony{
-        width: 100%;
-        background: black;
-        color: white;
+        min-width: 100%;
         padding: 0 2%;
-    }
-    .sony h1{
-        text-align: end;
-        font-size: 28px;
     }
 }
-@media screen  and (min-width: 768px) and (max-width: 991.98px) {
+/* Large devices (min-width: 768px and max-width: 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px){
     .sony{
-        width: 100%;
-        background: black;
-        color: white;
+        min-width: 100%;
         padding: 0 2%;
-    }
-    .sony h1{
-        text-align: end;
-        font-size: 28px;
-    }
-}
-@media screen  and (min-width: 992px) and (max-width: 1199.98px){
-    .sony{
-        width: 100%;
-        background: black;
-        color: white;
-        padding: 0 2%;
-    }
-    .sony h1{
-        text-align: end;
-        font-size: 28px;
-    }
-}
-@media screen  and (min-width: 1200px) {
-    .sony{
-        width: 100%;
-        background: black;
-        color: white;
-        padding: 0 2%;
-    }
-    .sony h1{
-        text-align: end;
-        font-size: 28px;
     }
 }
 
-/* <!-- -------------------------Nav------------------------ --> */
-.navo{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px 5%;
-    align-items: center;
-    z-index: 900;
-}
-.navo .logo a img{
-    width: 50px;
-}
-.navo .links {
-    margin-left: 50px;
-}
-.navo .links a{
-    text-decoration: none;
-    color: black;
-    margin-left: 15px;
-    font-weight: bold;
-}
-.navo .btn{
-    margin-left: 450px;
-}
-.navo .btn button{
-    background: blue;
-    color: white;
-    border: 0;
-    outline: 0;
-    padding: 2px 20px;
-    border-radius: 30px;
-    font-size: 18px
-}
-.navo .search{
-    margin-left: 10px;
-    font-size: 30px;
-    margin-top: 10px;
-}
-@media screen  and (maxwidth: 575.98px){
-    .sony{
-        width: 100%;
-        background: black;
-        color: white;
-        padding: 0 2%;
-    }
-    .sony h1{
-        text-align: end;
-        font-size: 28px;
-    }
-}
-@media screen  and (min-width: 576px) and (max-width: 767.98px) {
-    .sony{
-        width: 100%;
-        background: black;
-        color: white;
-        padding: 0 2%;
-    }
-    .sony h1{
-        text-align: end;
-        font-size: 28px;
-    }
-}
-@media screen  and (min-width: 768px) and (max-width: 991.98px) {
-    .sony{
-        width: 100%;
-        background: black;
-        color: white;
-        padding: 0 2%;
-    }
-    .sony h1{
-        text-align: end;
-        font-size: 28px;
-    }
-}
-@media screen  and (min-width: 992px) and (max-width: 1199.98px){
-    .sony{
-        width: 100%;
-        background: black;
-        color: white;
-        padding: 0 2%;
-    }
-    .sony h1{
-        text-align: end;
-        font-size: 28px;
-    }
-}
-@media screen  and (min-width: 1200px) {
-    .sony{
-        width: 100%;
-        background: black;
-        color: white;
-        padding: 0 2%;
-    }
-    .sony h1{
-        text-align: end;
-        font-size: 28px;
-    }
-}
 /* <!-- ------------------------Nav------------------------- --> */
-#Navo .Nav {
+/* #Navo .Nav {
     padding: 10px 0;
-}
+} */
 #Navo .Nav ul{
     list-style: none;
     display: flex;
@@ -297,68 +189,824 @@
     display: none;
 }
 #Navo .Menu-btn:hover{
-    color: red;
+    color: blue;
 }
-/* Responsive design */
-/* Small devices (max-width: 575.98px) */
-@media screen and (max-width: 575.98px){
-    #Navo .Nav .Normal-Nav .Left ul{
-        display: none;
-    }
-    #Navo .Nav .Normal-Nav  .Right{
+
+
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
+    #Navo .Nav .Normal-Nav ul{
         display: none;
     }
     #Navo .Menu-btn{
         display: flex;
-        flex-direction: row;
     }
-    #Navo .Menu-btn i:hover{
-        color: blue;
+    #Navo .Nav .Normal-Nav  .Right{
+        display: none;
+    }
+    #Navo .Nav .Normal-Nav .Left .logo a img{
+        width: 50px;
+    }
+    #Navo .Menu-btn{
+        top: 50px;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
-@media screen and (min-width: 576px) and (max-width: 767.98px){
-    #Navo .Nav .Normal-Nav .Left ul{
-        display: none;
-    }
-    #Navo .Nav .Normal-Nav  .Right{
+@media screen and (min-width: 576px) and (max-width: 767px){
+    #Navo .Nav .Normal-Nav ul{
         display: none;
     }
     #Navo .Menu-btn{
         display: flex;
-        flex-direction: row;
     }
-    #Navo .Menu-btn i:hover{
-        color: blue;
+    #Navo .Nav .Normal-Nav  .Right{
+        display: none;
+    }
+    #Navo .Nav .Normal-Nav .Left .logo a img{
+        width: 50px;
+    }
+    #Navo .Menu-btn{
+        top: 50px;
     }
 }
-/* Desktop view */
-@media screen and (min-width: 769px)and  (max-width: 992px){
-    #Navo .Nav .Normal-Nav .Left ul{
-        display: none;
+
+/* ------------------------Main------------------------- */
+.maino {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+.maino .slide-container {
+    position: relative;
+    width: 100%;
+    height: 580px;
+}
+.maino .slide-container .slides {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.maino .slide-container .slides img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.maino .slide-container .slides img:not(.active) {
+    top: 0;
+    left: -100%;
+}
+.maino .slide-container .buttons span {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    color: blue;
+    font-size: 40px;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 3px;
+    user-select: none;
+    padding: 14px;
+}
+.next {
+    right: 5px;
+}
+.prev {
+    left: 5px;
+}
+.next:hover, .prev:hover {
+    background: #3399FF;
+    opacity: 0.8;
+}
+.dot-container {
+    position: absolute;
+    bottom: 40px;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dot-container .dot {
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    border: 3px solid #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background 0.6s ease;
+}
+.dot-container .active {
+    background: blue;
+}
+
+@keyframes next1 {
+    from {
+        left: 0%;
     }
-    #Navo .Nav .Normal-Nav  .Right{
-        display: none;
-    }
-    #Navo .Menu-btn{
-        display: flex;
-        flex-direction: row;
-    }
-    #Navo .Menu-btn i:hover{
-        color: blue;
+    to {
+        left: -100%;
     }
 }
-/* Large devices (min-width: 992px and max-width: 1199.98px) */
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
-    #Navo .Nav .Normal-Nav .Left ul{
-        display: flex;
-        flex-direction: row;
+@keyframes next2 {
+    from {
+        left: 100%;
     }
-    #Navo .Nav .Normal-Nav  .Right{
-        display: flex;
-        flex-direction: row;
+    to {
+        left: 0%;
     }
-    #Navo .Menu-btn{
-        display: none;
+}
+@keyframes prev1 {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
+@keyframes prev2 {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .maino .slide-container {
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    .dot-container{
+        bottom: 320px;
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .maino .slide-container {
+        position: relative;
+        width: 100%;
+        height: 350px;
+    }
+    .dot-container{
+        bottom: 290px;
+    }
+}
+
+/* <!-- ------------------------indicator------------------------- --> */
+.indicators{
+    display: flex;
+    padding: 10px 1%;
+    width: 100%;
+}
+.indicators .one{
+    margin-left: 5px;
+}
+.indicators .one img{
+    width: 100%;
+    border-radius: 8px;
+}
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .indicators{
+        min-width: 100%;
+    }
+    .indicators .one{
+        margin-left: 2px;
+    }
+    .indicators .one img{
+        border-radius: 4px; 
+        width: 100%;
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .indicators{
+        min-width: 100%;
+    }
+    .indicators .one{
+        margin-left: 2px;
+    }
+    .indicators .one img{
+        border-radius: 4px; 
+        width: 100%;
+    }
+}
+
+
+/* <!-- ------------------------intro ps5------------------------- --> */
+.intro-ps5{
+    padding: 30px 5%;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+.intro-ps5 .righty img{
+    width: 100%;
+}
+.intro-ps5 .lefty h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.intro-ps5 .lefty h3{
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 10px;
+}
+.intro-ps5 .lefty p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.intro-ps5 .lefty  span button{
+    background: blue;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+.intro-ps5 .lefty  span .red{
+    background: red;
+}
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .intro-ps5{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .intro-ps5 .righty img{
+        width: 100%;
+    }
+    .intro-ps5 .lefty h1{
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .intro-ps5{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .intro-ps5 .righty img{
+        width: 100%;
+    }
+    .intro-ps5 .lefty h1{
+        font-size: 45px;
+        font-weight: 600;
+    }
+}
+
+
+
+/* <!-- ------------------------cards------------------------- --> */
+.carousel-inner {
+    padding: 10px 5%;
+    width: 100%;
+}
+
+.carousel-inner .carousel-item .row img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 0px rgba(211, 211, 211, 1);
+}
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .carousel-inner .carousel-item .row {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .carousel-inner .carousel-item .col-lg-3 {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .carousel-inner .carousel-item .row {
+        display: flex;
+        flex-direction: row; 
+    }
+
+    .carousel-inner .carousel-item .col-lg-3 {
+        width: 50%; 
+        padding: 5px; 
+    }
+}
+
+
+
+/* <!-- ------------------------great------------------------- --> */
+.great{
+    background: #2b2b2b;
+    padding: 20px 5%;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+}
+.great h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.great  span button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.great .games{
+    display: flex;
+    margin-bottom: 20px;
+}
+.great .games .one{
+    margin-left: 10px;
+}
+.great .games .one img{
+    width: 100%;
+    border-radius: 20px;
+}
+.great .games .one h3{
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .great{
+        max-width: 100%;
+    }
+    .great .games{
+        display: flex;
+        flex-direction: column;
+    }
+    .great .games .one img{
+        width: 100%;
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .great{
+        max-width: 100%;
+    }
+    .great .games{
+        display: flex;
+        flex-direction: column;
+    }
+    .great .games .one img{
+        width: 100%;
+    }
+}
+
+
+
+/* <!-- ------------------------Discover------------------------- --> */
+.discover{
+    background-image: url(./images/discover\ bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    object-fit: cover;
+}
+.discover h3{
+    font-size: 35px;
+    padding-top: 20px;
+}
+.discover h2{
+    font-size: 40px;
+}
+
+
+/* <!-- ------------------------Feel------------------------- --> */
+.feet{
+    background-image: url(./images/f1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 0 5%;
+    width: 100%;
+}
+.feet h1{
+    font-size: 40px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.feet p{
+    width: 500px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 2;
+}
+.feet span button{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.feet span .red{
+    background: red;
+    color: white;
+}
+/* Responsive design */
+
+/* Small devices (max-width: 575.98px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .feet p{
+        width: 400px;
+    }
+    .feet{
+        background-image: url(./images/f1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        padding: 0 5%;
+        width: 100%;
+    }
+}
+
+/* <!-- ------------------------july------------------------- --> */
+.july{
+    background-image: url(./images/j1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 0 5%;
+    width: 100%;
+}
+.july h1{
+    font-size: 40px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.july p{
+    width: 500px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.july span button{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.july .new{
+    display: flex;
+}
+.july .new .two{
+    margin-left: 10px;
+} 
+.july .new .two img{
+    width: 100%;
+    border-radius: 20px;
+}
+.july .new .two h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.july .new .two p{
+    width: 300px;
+    font-size: 14px;
+}
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .july {
+        max-width: 100%;
+    }
+    .july .new{
+        display: flex;
+        flex-direction: column;
+    }
+    .july .new .two img{
+        width: 100%;
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .july {
+        max-width: 100%;
+    }
+    .july .new{
+        display: flex;
+        flex-direction: column;
+    }
+    .july .new .two img{
+        width: 100%;
+    }
+}
+
+/* <!-- ------------------------Summer------------------------- --> */
+.summer{
+    display: flex;
+    padding: 30px 5%;
+    align-items: center;
+    max-width: 100%;
+}
+.summer .right{
+    margin-left: 20px;
+    flex-basis: 60%;
+}
+.summer .right img{
+    width: 100%;
+    border-radius: 20px;
+}
+.summer .left{
+    flex-basis: 40%;
+}
+.summer .left h2{
+    margin-bottom: 10px;
+}
+.summer .left h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.summer .left button{
+    outline: 0;
+    border: 0;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (max-width: 320px){
+    .summer{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .summer{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .summer .right{
+        margin-top: 20px;
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .summer{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .summer .right{
+        margin-top: 20px;
+    }
+}
+
+/* <!-- ------------------------FOllow------------------------- --> */
+.follow{
+    background: #f5f7fa;
+    text-align: center;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.follow h1{
+    padding-top: 50px;
+}
+.follow i{
+    font-size: 150px;
+    cursor: pointer;
+}
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (max-width: 320px){
+    .follow{
+        max-width: 100%;
+    }
+    .follow i{
+        font-size: 100px;
+    }
+
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .follow{
+        max-width: 100%;
+    }
+    .follow i{
+        font-size: 110px;
+    }
+    .follow h1{
+        margin-bottom: 50px;
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .follow{
+        max-width: 100%;
+    }
+    .follow i{
+        font-size: 110px;
+    }
+    .follow h1{
+        margin-bottom: 50px;
+    }
+}
+
+/* <!-- ------------------------footer------------------------- --> */
+.footer{
+    background: #00439c;
+    padding: 20px 5%;
+    color: white;
+    max-width: 100%;
+}
+.footer .start{
+    display: flex;
+    align-items: center;
+}
+.footer .start .left img{
+    width: 70px;
+}
+.footer .start  .right{
+    margin-left: 10px;
+}
+.footer .start  .right h1{
+    color: white;
+    font-size: 38px;
+}
+.footer hr{
+    border: 1px solid #ccc;
+}
+.footer .middle{
+    display: flex;
+    justify-content: space-between;
+}
+/* .footer .middle .mid{
+    margin-left: 90px;
+} */
+.footer .middle .mid a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer .middle .mid h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.footer .second-last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .second-last .left{
+    display: flex;
+    align-items: center;
+}
+.footer .second-last .left img{
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.footer .second-last .btwn h3{
+    font-size: 22px;
+}
+.footer .second-last .right img{
+    width: 50px;
+    /* margin-left: 1000px; */
+}
+.footer .second-txt p{
+    font-size: 17px;
+    line-height: 2;
+}
+.footer .last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .last .logo{
+    display: flex;
+    align-items: center;
+}
+.footer .last .logo img{
+    width: 40px;
+    margin-right: 10px;
+}
+.footer .last .country h4{
+    font-size: 17px;
+}
+.footer .last  .links a{
+    text-decoration: none;
+    color: white;
+    border-right: 2px solid white;
+    margin-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+/* -------------------Responsive design----------------------*/
+
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (max-width: 320px){
+    .footer{
+        max-width: 100%;
+    }
+    .footer .start{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .last{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .footer{
+        max-width: 100%;
+    }
+    .footer .start{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .last{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .middle .mid h3{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .footer .last .logo{
+        margin-bottom: 20px;
+    }
+    .footer .second-txt p{
+        width: 450px;
+    }
+
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .footer{
+        max-width: 100%;
+    }
+    .footer .start{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .last{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .middle .mid h3{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .footer .last .logo{
+        margin-bottom: 20px;
     }
 }
