@@ -74,6 +74,10 @@ body{
 /* #Navo .Nav {
     padding: 10px 0;
 } */
+/* #Navo {
+    z-index: 999;
+    position: sticky;
+} */
 #Navo .Nav ul{
     list-style: none;
     display: flex;
