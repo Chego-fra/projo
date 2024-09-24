@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
 }
+/* Prevent horizontal scroll */
+html, body {
+    overflow-x: hidden;
+  }
 
 body{
     min-width: 100%;
@@ -343,7 +347,7 @@ body{
         height: 300px;
     }
     .dot-container{
-        bottom: 300px;
+        bottom: 290px;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -354,7 +358,7 @@ body{
         height: 350px;
     }
     .dot-container{
-        bottom: 290px;
+        bottom: 250px;
     }
 }
 
@@ -596,7 +600,14 @@ body{
 .discover h2{
     font-size: 40px;
 }
+/* -------------------Responsive design----------------------*/
 
+/* -----------------------Small devices (max-width: 320px) */
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .discover h2{
+        font-size: 30px;
+    }
+}
 
 /* <!-- ------------------------Feel------------------------- --> */
 .feet{
@@ -817,7 +828,7 @@ body{
         max-width: 100%;
     }
     .follow i{
-        font-size: 100px;
+        font-size: 70px;
     }
 
 }
@@ -826,7 +837,7 @@ body{
         max-width: 100%;
     }
     .follow i{
-        font-size: 110px;
+        font-size: 90px;
     }
     .follow h1{
         margin-bottom: 50px;
@@ -950,6 +961,7 @@ body{
     .footer .middle{
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
     }
     .footer .last{
         display: flex;
@@ -968,6 +980,12 @@ body{
     .footer .middle{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footer .middle .mid{
+        width: 233px;
+        margin-bottom: 20px;
     }
     .footer .last{
         display: flex;
@@ -976,12 +994,17 @@ body{
     .footer .middle .mid h3{
         font-size: 30px;
         font-weight: 600;
+        margin-bottom: 10px;
     }
     .footer .last .logo{
         margin-bottom: 20px;
     }
     .footer .second-txt p{
-        width: 450px;
+        width: 400px;
+    }
+    .footer .last .links {
+        width: fit-content;
+        text-align: start;
     }
 
 }
@@ -997,6 +1020,14 @@ body{
     .footer .middle{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footer .middle .mid{
+        width: 233px;
+    }
+    .footer .second-txt p{
+        width: fit-content;
     }
     .footer .last{
         display: flex;
@@ -1008,6 +1039,9 @@ body{
     }
     .footer .last .logo{
         margin-bottom: 20px;
+    }
+    .footer .last .links {
+        width: fit-content;
     }
 }
 
@@ -1579,97 +1613,332 @@ body{
 }
 
 /* <!-- -------------------------------vr---------------------------  --> */
-.vre{
+#Vre{
     background: #1ec2fa;
-    padding: 30px 5%;
-    color: black;
+    padding: 50px 5%;
     text-align: center;
 }
-.vre button{
-    margin-left: 550px;
-    outline: 0;
-    border: 0;
-    padding: 10px 20px;
-    background: #1489f3;
-    color: white;
-    border-radius: 20px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.vre img{
+#Vre .phot img{
     width: 100%;
 }
-.vre h1{
-    font-size: 60px;
+#Vre .phot h1{
     font-weight: 600;
-    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
-.vre  p{
-    text-align: center;
+#Vre .phot p{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 50px;
 }
-.vre .ps4 {
+#Vre .One{
     display: flex;
+    justify-content: space-between;
 }
-.vre .ps4 .blood {
-    margin-left: 20px;
-    margin-top: 20px;
-
+#Vre .One .Two{
+    margin-right: 20px;
 }
-.vre .ps4 .blood img{
+#Vre .One .Two img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-.vre .ps4 .blood h2{
-    text-align: center;
-    margin-top: 20px;
-}
-.vre .ps4 .blood p{
-    text-align: center;
+#Vre .One .Two p{
+    margin-bottom: 20px;
     line-height: 2;
-    margin-top: 40px;
 }
-.vre .ps4 .blood button{
+#Vre  button{
     outline: 0;
     border: 0;
     padding: 10px 20px;
     background: #1489f3;
     color: white;
-    margin-left: 80px;
     border-radius: 20px;
     font-size: 18px;
     font-weight: 600;
+    margin-bottom: 60px;
 }
-
+#Vre  button:hover{
+    background: #f31414;
+}
 @media screen and (min-width: 320px) and (max-width: 575px){
-    .vre .ps4 {
+    #Vre .One{
         display: flex;
         flex-direction: column;
-    }
-    .vre img{
-        width: 100%;
-    }
-    .vre h1{
-        font-size: 30px;
-    }
-    .vre .vanish{
-        display: none;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
 @media screen and (min-width: 576px) and (max-width: 767px){
-    .vre .ps4 {
+    #Vre .One{
         display: flex;
         flex-direction: column;
     }
-    .vre img{
+}
+
+/* <!-- -------------------------------Upcomming---------------------------  --> */
+.upcoming{
+    background: url(./images/l1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.upcoming .left h1{
+    font-size: 50px;
+}
+.upcoming .left p{
+    line-height: 2;
+    font-size: 20px;
+}
+.upcoming .left button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.upcoming .right img{
+    width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .upcoming{
+        display: flex;
+        flex-direction: column;
+    }
+    .upcoming .left h1{
+        font-size: 35px;
+    }
+    .upcoming .right{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .upcoming{
+        display: flex;
+        flex-direction: column;
+    }
+    .upcoming .left h1{
+        font-size: 40px;
+    }
+    .upcoming .right{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/* <!-- -------------------------------alive---------------------------  --> */
+.alive{
+    background: url(./images/m1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 15%;
+    color: white;
+}
+.alive .in{
+    background: #091d90;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    width: 500px;
+    padding: 30px;
+}
+.alive .in h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.alive .in .bit{
+    display: flex;
+    margin-bottom: 20px;
+}
+.alive .in .bit .left img{
+    width: 100px;
+}
+
+.alive .in .bit .right p{
+    width: 300px;
+    line-height: 2;
+    font-size: 18px;
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .alive{
+        padding: 30px 2%;
+    }
+    .alive .in{
+        width: 400px;
+    }
+    .alive .in .bit .right p{
+        width: 250px;
+    }
+}
+/* <!-- ------------------------like------------------------- --> */
+.like{
+    background: #ececec;
+    padding: 30px 10%;
+    text-align: center;
+}
+.like iframe{
+    border-radius: 40px;
+    /* margin-left: 190px; */
+}
+.like h1{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.like .trigger{
+    display: flex;
+}
+.like .trigger .left img{
+    width: 100%;
+}
+.like .trigger .left{
+    text-align: center;
+    flex-basis: 49%;
+}
+.like .trigger .left h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.like .trigger .right h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.like .trigger .left p{
+    line-height: 2;
+}
+.like .trigger .left button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: #1489f3;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.like .trigger .left button:hover{
+    background: #f31414;
+}
+.like .trigger .right button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: #1489f3;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.like .trigger .right button:hover{
+    background: #f31414;
+}
+.like .trigger .right p{
+    line-height: 2;
+}
+.like .trigger .right img{
+    width: 100%;
+}
+.like .trigger .right{
+    text-align: center;
+    flex-basis: 49%;
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .like .trigger{
+        display: flex;
+        flex-direction: column;
+    }
+    .like iframe{
         width: 100%;
     }
-    .vre h1{
-        font-size: 30px;
+    .like{
+        padding: 30px 2%;
     }
-    .vre .vanish{
-        display: none;
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .like .trigger{
+        display: flex;
+        flex-direction: column;
     }
+    .like iframe{
+        width: 100%;
+    }
+    .like{
+        padding: 30px 2%;
+    }
+}
+
+/* <!-- ------------------------portal------------------------- --> */
+.portal{
+    display: flex;
+    padding: 30px 8%;
+    align-items: center;
+}
+.portal .right img{
+    width: 100%;
+}
+.portal .left h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.portal .left p{
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.portal .left button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: #1489f3;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .portal{
+        display: flex;
+        flex-direction: column;
+    }
+    .portal .left h1{
+        font-size: 38px;
+    }
+
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .portal{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* <!-- ------------------------marvel------------------------- --> */
+.marvel{
+    background: #f5f7fa;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15%;
+}
+.marvel img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.marvel .lower{
+    margin-bottom: 60px;
 }
