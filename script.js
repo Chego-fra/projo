@@ -179,3 +179,63 @@ container.addEventListener("mouseout", autoSliding);
 
 });
 
+
+
+
+// -----------------------------------games----------------
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    let slideContent = document.querySelectorAll("[tumbler]");
+
+// access buttons
+let nex = document.querySelector("[Nex]");
+let pre = document.querySelector("[Pre]");
+
+var counters= 0;
+
+// code for after button
+nex.addEventListener("click", slideMbele);
+function slideMbele() {
+    slideContent[counters].style.animation = "nextins1 0.5s ease-in forwards";
+    if (counters >= slideContent.length - 1) {
+        counters = 0;
+    } else {
+        counters++;
+    }
+    slideContent[counters].style.animation = "nextins2 0.5s ease-in forwards";
+}
+
+// code for before button
+pre.addEventListener("click", slideNyuma);
+function slideNyuma() {
+    slideContent[counters].style.animation = "previns1 0.5s ease-in forwards";
+    if (counters == 0) {
+        counters = slideContent.length - 1;
+    } else {
+        counters--;
+    }
+    slideContent[counters].style.animation = "previns2 0.5s ease-in forwards";
+}
+
+
+function autoSlidings() {
+    deletInterval = setInterval(timer,2000);
+    function timer() {
+        slideMbele();
+    }
+}
+autoSlidings() 
+
+
+// ---------------stop auto sliding when mouse is over-------------
+const container = document.querySelector(".Cup-cont")
+container.addEventListener("mouseover", function() {
+    clearInterval(deletInterval);
+});
+// ---------------resume sliding when mouse is out-------------
+container.addEventListener("mouseout", autoSlidings);
+
+
+});
+
