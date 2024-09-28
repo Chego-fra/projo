@@ -5691,3 +5691,197 @@ flex-basis: 49%;
             flex-direction: column;
         }
     }
+
+
+/* <!-- ------------------------support------------------------- --> */
+#support{
+    background-image: url(./images/sd1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+    color: white;
+}
+#support .right img{
+    width: 300px;
+}
+#support .left h1{
+    font-weight: 600;
+}
+#support .left  p{
+    font-weight: 600;
+    font-size: 18px;
+}
+#support .left button{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    #support{
+        display: flex;
+        flex-direction: column;
+    }
+    #support .left  p{
+        width: fit-content;
+    }
+    #support .right img{
+        width: 100%;
+    }
+    #support .left button{
+        margin-bottom: 20px;
+    }
+}
+    /* Medium devices (min-width: 576px and max-width: 767.98px) */
+    @media screen and (min-width: 576px) and (max-width: 767px){
+        #support{
+            display: flex;
+            flex-direction: column;
+        }
+        #support .left  p{
+            width: fit-content;
+        }
+        #support .right img{
+            width: 100%;
+        }
+        #support .left button{
+            margin-bottom: 20px;
+        }
+    }
+    
+/* <!-- ------------------------browse------------------------- --> */
+#browse{
+    padding: 30px 20%;
+    text-align: center;
+}
+#browse h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#browse .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#browse .one .two{
+    border: 2px solid #ccccccb6;
+    padding: 20px 80px;
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+#browse .one .two h4{
+    font-size: 16px;
+    color: #1489f3;
+}
+#browse .one .two i{
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: #1489f3;
+}
+#browse .one .two:hover{
+    border: 2px solid #1489f3;
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    #browse .one{
+        display: flex;
+        flex-direction: column;
+    }
+    #browse .one .two{
+        margin-bottom: 20px;
+    }
+}
+    /* Medium devices (min-width: 576px and max-width: 767.98px) */
+    @media screen and (min-width: 576px) and (max-width: 767px){
+        #browse .one{
+            display: flex;
+            flex-direction: column;
+        }
+        #browse .one .two{
+            margin-bottom: 20px;
+        }
+    }
+
+/* <!-- ------------------------passkey------------------------- --> */
+#passkey{
+    background: #F4F6FA;
+    padding: 30px 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#passkey .left {
+    margin-right: 50px;
+}
+#passkey .left img{
+    width: 300px;
+}
+#passkey .right h2{
+    font-weight: 600;
+}
+#passkey .right p{
+    line-height: 2;
+}
+#passkey .right  a{
+    text-decoration: none;
+    color: #1489f3;
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    #passkey{
+        display: flex;
+        flex-direction: column;
+    }
+}
+    /* Medium devices (min-width: 576px and max-width: 767.98px) */
+    @media screen and (min-width: 576px) and (max-width: 767px){
+        #passkey{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+/* <!-- ------------------------notice------------------------- --> */
+#notice{
+    padding: 30px 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#notice .left {
+    margin-left: 50px;
+}
+#notice .left img{
+    width: 300px;
+}
+#notice .right h2{
+    font-weight: 600;
+}
+#notice .right p{
+    line-height: 2;
+}
+#notice .right  a{
+    text-decoration: none;
+    color: #1489f3;
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    #notice{
+        display: flex;
+        flex-direction: column;
+    }
+}
+    /* Medium devices (min-width: 576px and max-width: 767.98px) */
+    @media screen and (min-width: 576px) and (max-width: 767px){
+        #notice{
+            display: flex;
+            flex-direction: column;
+        }
+    }
