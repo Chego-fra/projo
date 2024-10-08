@@ -354,8 +354,7 @@ body{
         height: 150px;
     }
     .dot-container{
-        bottom: 500px;
-        width: fit-content;
+        display: none;
     }
     .dot-container .dot{
         width: 8px;
