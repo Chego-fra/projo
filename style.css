@@ -4443,7 +4443,7 @@ flex-basis: 49%;
     #accessories  h1{
         font-size: 40px;
     }
-
+}
 /* <!-- --------------------latest----------------------------- --> */
 #latest{
     text-align: center;
@@ -5979,6 +5979,7 @@ flex-basis: 49%;
         padding: 30px 5%;
     }
 }
+
     /* Medium devices (min-width: 576px and max-width: 767.98px) */
     @media screen and (min-width: 576px) and (max-width: 767px){
         #notice{
@@ -5986,4 +5987,3 @@ flex-basis: 49%;
             flex-direction: column;
         }
     }
-}
