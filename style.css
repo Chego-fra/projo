@@ -12,6 +12,9 @@ html, body {
 body{
     min-width: 100%;
 }
+html {
+    scroll-behavior: smooth;
+  }
 /* -------------------Responsive design----------------------*/
 
 /* -----------------------Small devices (max-width: 320px) */
@@ -351,7 +354,7 @@ body{
     .maino .slide-container {
         position: relative;
         width: 100%;
-        height: 150px;
+        height: 180px;
     }
     .dot-container{
         display: none;
@@ -468,8 +471,15 @@ body{
         width: 100%;
     }
     .intro-ps5 .lefty h1{
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 600;
+    }
+    .intro-ps5 .lefty h3{
+        font-size: 21px;
+        font-weight: 600;
+    }
+    .intro-ps5 .lefty p{
+        font-size: 18px;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -580,6 +590,9 @@ body{
     }
     .great .games .one img{
         width: 100%;
+    }
+    .great h1{
+        font-size: 25px;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -742,6 +755,10 @@ body{
     .july  p{
         width: fit-content;
     }
+    .july h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
 @media screen and (min-width: 576px) and (max-width: 767px){
@@ -856,6 +873,8 @@ body{
 @media screen and (min-width: 320px) and (max-width: 575px){
     .follow{
         max-width: 100%;
+        text-align: center;
+        width: 100%;
     }
     .follow i{
         font-size: 80px;
@@ -863,6 +882,9 @@ body{
     .follow h1{
         margin-bottom: 50px;
         width: fit-content;
+        font-size: 25px;
+        text-align: center;
+        padding-left: 50px;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -1179,6 +1201,10 @@ body{
     }
     .stellar .stel .right{
         margin-top: 30px;
+    }
+    .stellar h1{
+        font-size: 25px;
+        font-weight: 600;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -1611,6 +1637,10 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .for h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
 @media screen and (min-width: 576px) and (max-width: 767px){
@@ -1666,6 +1696,10 @@ body{
 
     .cloud p{
         width: fit-content;
+    }
+    .cloud h2{
+        font-size: 30px;
+        font-weight: 600;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -1738,6 +1772,10 @@ body{
     #Vre .One{
         display: flex;
         flex-direction: column;
+    }
+    #Vre .phot h1{
+        font-size: 30px;
+        font-weight: 600;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -1995,7 +2033,8 @@ body{
         flex-direction: column;
     }
     .portal .left h1{
-        font-size: 38px;
+        font-size: 30px;
+        font-weight: 600;
     }
 
 }
@@ -2583,6 +2622,12 @@ body{
     } 
 }
 
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .Vid iframe{
+        height: 400px;
+    }
+}
+
 
 /* <!-- ------------------------immerse------------------------- --> */
 .immerse{
@@ -2648,6 +2693,10 @@ body{
     }
     .immerse .six .right{
         margin-top: 30px;
+    }
+    .immerse h1{
+        font-size: 25px;
+        font-weight: 600;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -2810,6 +2859,10 @@ flex-basis: 49%;
     font-size: 12px;
 }
 @media screen and (min-width: 320px) and (max-width: 575px){
+    .acce h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
     .seven{
         display: flex;
         flex-direction: column;
@@ -2866,6 +2919,9 @@ flex-basis: 49%;
     .ga{
         display: flex;
         flex-direction: column;
+    }
+    .ga .right h2{
+        font-size: 35px;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -2980,6 +3036,10 @@ flex-basis: 49%;
         display: flex;
         flex-direction: column;
     }
+    .francis h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
 @media screen and (min-width: 576px) and (max-width: 767px){
@@ -3034,7 +3094,8 @@ flex-basis: 49%;
         flex-direction: column;
     }
     .enter h1{
-        font-size: 40px;
+        font-size: 30px;
+        font-weight: 600;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -3080,6 +3141,9 @@ flex-basis: 49%;
 @media screen and (min-width: 320px) and (max-width: 575px){
     .winyo .eleven .right h1{
         font-size: 55px;
+    }
+    .winyo{
+        height: 400px;
     }
 }
 
@@ -3137,7 +3201,10 @@ flex-basis: 49%;
         flex-direction: column;
     }
     .consol h1{
-        font-size: 40px;
+        font-size: 30px;
+    }
+    .consol .twelve .left h3{
+        font-size: 30px;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -3185,6 +3252,10 @@ flex-basis: 49%;
 @media screen and (min-width: 320px) and (max-width: 575px){
     .ghost .thirteen{
         width: fit-content;
+    }
+    .ghost .thirteen h2{
+        font-size: 30px;
+        font-weight: 600;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -3309,6 +3380,9 @@ flex-basis: 49%;
         width:fit-content;
         margin-left: 0px;
     }
+    .credi .fifteen .sixteen {
+        margin-bottom: 20px;
+    }
     .credi{
         padding: 0 2%;
     }
@@ -3360,6 +3434,13 @@ flex-basis: 49%;
     margin-bottom: 20px;
     font-size: 18px;
     margin-top: 20px;
+}
+/* Medium devices (min-width: 576px and max-width: 767.98px) */
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .hits h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 /* <!-- ------------------------vr------------------------- --> */
 .live{
@@ -3559,6 +3640,9 @@ flex-basis: 49%;
     .chege button{
         margin-top: 250px;
     }
+    .chege p{
+        font-size: 16px;
+    }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
 @media screen and (min-width: 576px) and (max-width: 767px){
@@ -3676,6 +3760,10 @@ flex-basis: 49%;
     }
     .remote .twentyone  .left p{
         width: fit-content;
+    }
+    .remote h1{
+        font-size: 30px;
+        font-weight: 600;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
@@ -4406,6 +4494,10 @@ flex-basis: 49%;
         display: flex;
         flex-direction: column;
     }
+    #plus h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
 @media screen and (min-width: 576px) and (max-width: 767px){
@@ -4441,7 +4533,10 @@ flex-basis: 49%;
 }
 @media screen and (min-width: 320px) and (max-width: 575px){
     #accessories  h1{
-        font-size: 40px;
+        font-size: 25px;
+    }
+    #accessories p{
+        font-size: 16px;
     }
 }
 /* <!-- --------------------latest----------------------------- --> */
@@ -4460,6 +4555,12 @@ flex-basis: 49%;
     font-weight: 600;
     margin-bottom: 20px;
     font-size: 18px;
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    #latest h3{
+        font-weight: 600;
+        font-size: 25px;
+    }
 }
 /* <!-- --------------------quik links----------------------------- --> */
 #quik{
@@ -4514,6 +4615,14 @@ flex-basis: 49%;
     margin-bottom: 20px;
     height: 100%;
 }
+.scroll-link .one {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .scroll-link .one:hover {
+    transform: translateY(5px);
+  }
 @media screen and (min-width: 320px) and (max-width: 575px){
     #quik .all{
         display: flex;
@@ -5313,7 +5422,7 @@ flex-basis: 49%;
         background-size: cover;
         background-position: center;
         width: 100vw;
-        height: 100vh;
+        height: fit-content;
     }
 }
     /* Medium devices (min-width: 576px and max-width: 767.98px) */
