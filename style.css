@@ -873,7 +873,6 @@ html {
 @media screen and (min-width: 320px) and (max-width: 575px){
     .follow{
         max-width: 100%;
-        text-align: center;
         width: 100%;
     }
     .follow i{
@@ -882,8 +881,7 @@ html {
     .follow h1{
         margin-bottom: 50px;
         width: fit-content;
-        font-size: 25px;
-        text-align: center;
+        font-size: 25px;;
     }
 }
 /* Medium devices (min-width: 576px and max-width: 767.98px) */
